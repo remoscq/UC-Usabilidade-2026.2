@@ -9,12 +9,17 @@ main {
   flex: 1;
 }
 
+.main > p {
+    padding-left: 35px; 
+    padding-right: 35px;
+    margin: 0;
+}
+
 footer {
     text-align: right;
     background-color: #f1f1f1;
     padding: 10px
 }
-
 
 .sales-header {
     display: flex;
@@ -78,4 +83,25 @@ footer {
 
 .product p {
   margin: 0;
+}
+
+.message-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 500px;
+  padding-left: 35px;
+  padding-top: 25px;
+}
+
+
+.message-form textarea {
+  min-height: 120px;
+  resize: vertical;
+  margin: 0;
+}
+
+.message-form button {
+  align-self: flex-end;
+  padding: 8px 24px;
 }
